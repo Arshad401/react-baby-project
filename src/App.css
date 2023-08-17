@@ -6,22 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
+.small-icon {
+  font-size: 20px; /* Adjust the font size as needed */
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {
@@ -35,4 +28,98 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navi {
+  padding: 25px;
+  background-color: skyblue;
+}
+.login {
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  background-image: url(https://images.pexels.com/photos/1166473/pexels-photo-1166473.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+
+.login-form {
+  border: 2px solid black;
+  border-radius: 3px;
+  padding: 25px;
+  width: 450px;
+  height: 350px;
+ 
+}
+
+.just {
+  height: 90vh;
+  width: 95vw;
+}
+#card {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.signup {
+  height: 100vh;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  box-sizing: border-box;
+  background-image: url(https://images.pexels.com/photos/265987/pexels-photo-265987.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+}
+
+.signup form {
+  border: 2px solid black;
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+
+}
+.nothing {
+  display: flex;
+  margin: 25px;
+}
+.nothing img {
+  flex-basis: 50%;
+  margin-bottom: 30px;
+}
+.nothing p {
+  flex-basis: 50%;
+  text-align: justify;
+  padding-left: 20px;
+}
+.Admincard-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.admincarrd{
+ margin: 5px;
+}
+
+.admin-nav{
+  padding: 15px;
+}
+.addproduct{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addproduct .add{
+  margin-top: 50px;
+  width: 50%;
+  border: 2px solid black;
+  padding: 20px;
 }
