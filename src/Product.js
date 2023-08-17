@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { myContext } from './Context';
 import { useNavigate } from 'react-router-dom';
-import Header from './Header';
+
 
 function Product() {
   const {product,search} = useContext(myContext)
@@ -11,7 +11,7 @@ function Product() {
   return (
     
     <div>
-      <div>   <Header/></div>
+      
     
       
       <h1 id='card'>OUR LATEST CATEGORIES </h1>
